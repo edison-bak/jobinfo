@@ -107,7 +107,7 @@ def closeDeadline_sql_and_return_result(**kwargs):
         with connection.cursor() as cursor:
             # SQL 쿼리 실행
             sql_query = """
-                SELECT mydb.jobinfo_jumpit.company AS 회사명, position AS 직급, skills AS 필요역량, average_salary AS 평균연봉, due_date AS 마감기한, link AS 채용페이지
+                SELECT mydb.jobinfo_jumpit.company AS 회사명, position AS 직급, skills AS 필요역량, due_date AS 마감기한, link AS 채용페이지
                 FROM mydb.jobinfo_jumpit
                 WHERE timestampdiff(DAY, due_date, now()) > -3;
             """
