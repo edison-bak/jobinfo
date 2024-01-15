@@ -39,8 +39,8 @@ def postAndReview_sql_and_return_result(**kwargs):
         with connection.cursor() as cursor:
             # SQL 쿼리 실행
             sql_query = """
-                SELECT mydb.jobinfo_jobplanet.company AS 회사명, merit_summary AS 장점, demerit_summary AS 단점, answer_summary AS 면접 분위기 및 질문
-                FROM mydb.jobinfo_jobplanet
+                SELECT mydb.jobinfo_jobplanet.company AS 회사명, merit_summary AS 장점, demerit_summary AS 단점, answer_summary AS '면접 분위기 및 답변'
+                FROM mydb.jobinfo_jobplanet;
             """
             cursor.execute(sql_query)
 
