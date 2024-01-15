@@ -1,9 +1,9 @@
+# 최신
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.hooks.base import BaseHook
 from airflow.hooks.S3_hook import S3Hook
 from airflow.hooks.mysql_hook import MySqlHook
-
 
 import boto3
 from datetime import datetime, timedelta
