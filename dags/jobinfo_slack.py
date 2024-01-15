@@ -193,7 +193,7 @@ with DAG(
     t7 = SlackWebhookOperator(
         task_id='send_slack_closeDeadline',
         http_conn_id='slack_conn',
-        message=f'```마감임박 채용공고!!\n{{{{ ti.xcom_pull(task_ids="closeDeadline_sql_and_return_result") }}}}\n```',
+        message=f'```마감임박 채용공고!!\n{{{{ ti.xcom_pull(task_ids="closeDeadline_sql_and_return_result") }}}}\n\n\n produced by - 김해빈, 노은지, 박광현, 조성재```',
         dag=dag
     )
 
