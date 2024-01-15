@@ -19,7 +19,7 @@ default_args = {
 sql_read_data = """
     SELECT mydb.jobinfo_jumpit.company, position, skills, location, career, due_date, review_summary, merit_summary, demerit_summary, average_salary
     FROM mydb.jobinfo_jumpit
-    JOIN mydb.jobinfo_jobplanet
+    LEFT JOIN mydb.jobinfo_jobplanet
     ON mydb.jobinfo_jumpit.company = mydb.jobinfo_jobplanet.company;
 """
 
@@ -40,7 +40,7 @@ def postAndReview_sql_and_return_result(**kwargs):
             sql_query = """
                 SELECT mydb.jobinfo_jumpit.company, position, skills, average_salary, due_date, link 
                 FROM mydb.jobinfo_jumpit
-                JOIN mydb.jobinfo_jobplanet
+                LEFT JOIN mydb.jobinfo_jobplanet
                 ON mydb.jobinfo_jumpit.company = mydb.jobinfo_jobplanet.company;
             """
             cursor.execute(sql_query)
@@ -175,18 +175,19 @@ with DAG(
     )
 
     t5 = SlackWebhookOperator(
+        task_id='send_slack_totalPost',
+        http_conn_id='slack_conn',
+        message=f'```오늘의 채용공고!!\n{{{{ ti.xcom_pull(task_ids="totalPost_sql_and_return_result") }}}}\n```',
+        dag=dag
+    )
+
+    t6 = SlackWebhookOperator(
         task_id='send_slack_postAndReview',
         http_conn_id='slack_conn',
-        message=f'```회사 공고와 리뷰!!\n{{{{ ti.xcom_pull(task_ids="postAndReview_sql_and_return_result") }}}}\n```',
+        message=f'```채용 공고와 리뷰!!\n{{{{ ti.xcom_pull(task_ids="postAndReview_sql_and_return_result") }}}}\n```',
         dag=dag
     )
     
-    t6 = SlackWebhookOperator(
-        task_id='send_slack_totalPost',
-        http_conn_id='slack_conn',
-        message=f'```오늘의 채용공고\n{{{{ ti.xcom_pull(task_ids="totalPost_sql_and_return_result") }}}}\n```',
-        dag=dag
-    )
     
     t7 = SlackWebhookOperator(
         task_id='send_slack_closeDeadline',
