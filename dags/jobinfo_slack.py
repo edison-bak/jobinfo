@@ -39,10 +39,8 @@ def postAndReview_sql_and_return_result(**kwargs):
         with connection.cursor() as cursor:
             # SQL 쿼리 실행
             sql_query = """
-                SELECT mydb.jobinfo_jumpit.company, position, skills, average_salary, due_date, link 
-                FROM mydb.jobinfo_jumpit
-                LEFT JOIN mydb.jobinfo_jobplanet
-                ON mydb.jobinfo_jumpit.company = mydb.jobinfo_jobplanet.company;
+                SELECT mydb.jobinfo_jobplanet.company AS 회사명, merit_summary AS 장점, demerit_summary AS 단점, answer_summary AS 면접 분위기 및 질문
+                FROM mydb.jobinfo_jobplanet
             """
             cursor.execute(sql_query)
 
@@ -74,8 +72,10 @@ def totalPost_sql_and_return_result(**kwargs):
         with connection.cursor() as cursor:
             # SQL 쿼리 실행
             sql_query = """
-                SELECT mydb.jobinfo_jumpit.company, position, skills, due_date, link
+                SELECT mydb.jobinfo_jumpit.company AS 회사명, position AS 직급, skills AS 필요역량, average_salary AS 평균연봉, due_date AS 마감기한, link AS 채용페이지
                 FROM mydb.jobinfo_jumpit
+                LEFT JOIN mydb.jobinfo_jobplanet
+                ON mydb.jobinfo_jumpit.company = mydb.jobinfo_jobplanet.company;
             """
             cursor.execute(sql_query)
 
@@ -107,7 +107,7 @@ def closeDeadline_sql_and_return_result(**kwargs):
         with connection.cursor() as cursor:
             # SQL 쿼리 실행
             sql_query = """
-                SELECT mydb.jobinfo_jumpit.company, position, skills, due_date, link
+                SELECT mydb.jobinfo_jumpit.company AS 회사명, position AS 직급, skills AS 필요역량, average_salary AS 평균연봉, due_date AS 마감기한, link AS 채용페이지
                 FROM mydb.jobinfo_jumpit
                 WHERE timestampdiff(DAY, due_date, now()) > -3;
             """
