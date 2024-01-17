@@ -9119,3 +9119,423 @@
 [2024-01-17T11:50:46.105+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:50:46.105+0000] {dag.py:2690} INFO - Sync 1 DAGs
 [2024-01-17T11:50:46.126+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:50:46.126+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
 [2024-01-17T11:50:46.265+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.226 seconds
+[2024-01-17T11:51:16.352+0000] {processor.py:153} INFO - Started process (PID=38583) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:51:16.352+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T11:51:16.353+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:51:16.353+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:51:16.394+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:51:16.417+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:51:16.417+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T11:51:16.557+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:51:16.557+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T11:51:16.575+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.225 seconds
+[2024-01-17T11:51:47.970+0000] {processor.py:153} INFO - Started process (PID=38663) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:51:47.996+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T11:51:48.000+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:51:47.999+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:51:48.291+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:51:48.417+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:51:48.417+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T11:51:48.554+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:51:48.554+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T11:51:48.670+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.703 seconds
+[2024-01-17T11:52:19.371+0000] {processor.py:153} INFO - Started process (PID=38732) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:52:19.372+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T11:52:19.372+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:52:19.372+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:52:19.593+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:52:19.661+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:52:19.660+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T11:52:19.748+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:52:19.748+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T11:52:19.852+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.483 seconds
+[2024-01-17T11:52:50.605+0000] {processor.py:153} INFO - Started process (PID=38803) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:52:50.606+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T11:52:50.607+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:52:50.606+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:52:50.678+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:52:50.699+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:52:50.699+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T11:52:50.725+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:52:50.724+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T11:52:50.953+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.350 seconds
+[2024-01-17T11:53:20.993+0000] {processor.py:153} INFO - Started process (PID=38885) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:53:20.993+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T11:53:20.993+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:53:20.993+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:53:21.036+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:53:21.055+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:53:21.055+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T11:53:21.079+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:53:21.079+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T11:53:21.102+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.111 seconds
+[2024-01-17T11:53:51.849+0000] {processor.py:153} INFO - Started process (PID=38963) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:53:51.853+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T11:53:51.854+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:53:51.854+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:53:51.949+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:53:51.994+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:53:51.994+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T11:53:52.041+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:53:52.041+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T11:53:52.078+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.232 seconds
+[2024-01-17T11:54:22.922+0000] {processor.py:153} INFO - Started process (PID=39034) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:54:22.922+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T11:54:22.923+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:54:22.923+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:54:22.983+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:54:23.004+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:54:23.004+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T11:54:23.027+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:54:23.026+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T11:54:23.283+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.370 seconds
+[2024-01-17T11:54:53.308+0000] {processor.py:153} INFO - Started process (PID=39112) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:54:53.309+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T11:54:53.309+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:54:53.309+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:54:53.357+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:54:53.376+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:54:53.375+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T11:54:53.518+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:54:53.518+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T11:54:53.537+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.232 seconds
+[2024-01-17T11:55:24.328+0000] {processor.py:153} INFO - Started process (PID=39186) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:55:24.329+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T11:55:24.329+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:55:24.329+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:55:24.373+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:55:24.393+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:55:24.393+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T11:55:24.418+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:55:24.418+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T11:55:24.436+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.110 seconds
+[2024-01-17T11:55:55.341+0000] {processor.py:153} INFO - Started process (PID=39262) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:55:55.342+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T11:55:55.343+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:55:55.343+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:55:55.428+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:55:55.455+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:55:55.454+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T11:55:55.492+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:55:55.492+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T11:55:55.530+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.191 seconds
+[2024-01-17T11:56:26.282+0000] {processor.py:153} INFO - Started process (PID=39336) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:56:26.282+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T11:56:26.283+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:56:26.283+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:56:26.328+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:56:26.353+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:56:26.353+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T11:56:26.638+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:56:26.638+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T11:56:26.672+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.393 seconds
+[2024-01-17T11:56:57.584+0000] {processor.py:153} INFO - Started process (PID=39416) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:56:57.587+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T11:56:57.588+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:56:57.587+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:56:57.655+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:56:57.693+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:56:57.693+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T11:56:57.720+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:56:57.720+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T11:56:57.755+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.174 seconds
+[2024-01-17T11:57:28.259+0000] {processor.py:153} INFO - Started process (PID=39486) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:57:28.259+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T11:57:28.260+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:57:28.260+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:57:28.357+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:57:28.402+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:57:28.402+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T11:57:28.446+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:57:28.446+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T11:57:28.496+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.239 seconds
+[2024-01-17T11:57:58.791+0000] {processor.py:153} INFO - Started process (PID=39565) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:57:58.797+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T11:57:58.798+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:57:58.798+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:57:58.892+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:57:58.942+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:57:58.942+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T11:57:58.991+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:57:58.991+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T11:57:59.164+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.376 seconds
+[2024-01-17T11:58:29.364+0000] {processor.py:153} INFO - Started process (PID=39637) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:58:29.364+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T11:58:29.365+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:58:29.365+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:58:29.414+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:58:29.434+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:58:29.434+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T11:58:29.578+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:58:29.578+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T11:58:29.599+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.237 seconds
+[2024-01-17T11:58:59.679+0000] {processor.py:153} INFO - Started process (PID=39707) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:58:59.680+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T11:58:59.680+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:58:59.680+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:58:59.725+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:58:59.742+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:58:59.742+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T11:58:59.794+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:58:59.793+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T11:58:59.816+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.139 seconds
+[2024-01-17T11:59:31.011+0000] {processor.py:153} INFO - Started process (PID=39787) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:59:31.011+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T11:59:31.012+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:59:31.012+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:59:31.108+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T11:59:31.145+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:59:31.145+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T11:59:31.190+0000] {logging_mixin.py:137} INFO - [2024-01-17T11:59:31.190+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T11:59:31.219+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.210 seconds
+[2024-01-17T12:00:01.582+0000] {processor.py:153} INFO - Started process (PID=39857) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:00:01.592+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:00:01.593+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:00:01.593+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:00:01.711+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:00:01.731+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:00:01.731+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:00:01.949+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:00:01.949+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:00:01.987+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.407 seconds
+[2024-01-17T12:00:32.864+0000] {processor.py:153} INFO - Started process (PID=39938) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:00:32.869+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:00:32.869+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:00:32.869+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:00:32.973+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:00:33.033+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:00:33.032+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:00:33.084+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:00:33.084+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:00:33.126+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.264 seconds
+[2024-01-17T12:01:03.499+0000] {processor.py:153} INFO - Started process (PID=40010) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:01:03.500+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:01:03.500+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:01:03.500+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:01:03.546+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:01:03.572+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:01:03.571+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:01:03.598+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:01:03.598+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:01:03.622+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.124 seconds
+[2024-01-17T12:01:35.012+0000] {processor.py:153} INFO - Started process (PID=40086) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:01:35.014+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:01:35.015+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:01:35.015+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:01:35.102+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:01:35.129+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:01:35.129+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:01:35.350+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:01:35.349+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:01:35.369+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.360 seconds
+[2024-01-17T12:02:05.787+0000] {processor.py:153} INFO - Started process (PID=40159) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:02:05.787+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:02:05.788+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:02:05.788+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:02:05.832+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:02:05.850+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:02:05.850+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:02:05.873+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:02:05.873+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:02:05.893+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.108 seconds
+[2024-01-17T12:02:36.562+0000] {processor.py:153} INFO - Started process (PID=40229) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:02:36.563+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:02:36.563+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:02:36.563+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:02:36.604+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:02:36.622+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:02:36.622+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:02:36.643+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:02:36.643+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:02:36.660+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.100 seconds
+[2024-01-17T12:03:07.749+0000] {processor.py:153} INFO - Started process (PID=40309) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:03:07.750+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:03:07.750+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:03:07.750+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:03:07.825+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:03:07.845+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:03:07.845+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:03:07.870+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:03:07.869+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:03:08.029+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.285 seconds
+[2024-01-17T12:03:38.144+0000] {processor.py:153} INFO - Started process (PID=40378) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:03:38.145+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:03:38.145+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:03:38.145+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:03:38.212+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:03:38.233+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:03:38.233+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:03:38.381+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:03:38.381+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:03:38.398+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.257 seconds
+[2024-01-17T12:04:09.298+0000] {processor.py:153} INFO - Started process (PID=40456) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:04:09.299+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:04:09.299+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:04:09.299+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:04:09.347+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:04:09.372+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:04:09.372+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:04:09.399+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:04:09.399+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:04:09.425+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.129 seconds
+[2024-01-17T12:04:40.345+0000] {processor.py:153} INFO - Started process (PID=40525) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:04:40.345+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:04:40.346+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:04:40.346+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:04:40.402+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:04:40.421+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:04:40.421+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:04:40.447+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:04:40.446+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:04:40.584+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.241 seconds
+[2024-01-17T12:05:10.717+0000] {processor.py:153} INFO - Started process (PID=40606) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:05:10.717+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:05:10.718+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:05:10.718+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:05:10.767+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:05:10.786+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:05:10.786+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:05:10.919+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:05:10.919+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:05:10.938+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.223 seconds
+[2024-01-17T12:05:41.442+0000] {processor.py:153} INFO - Started process (PID=40676) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:05:41.443+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:05:41.443+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:05:41.443+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:05:41.485+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:05:41.505+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:05:41.505+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:05:41.527+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:05:41.527+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:05:41.545+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.105 seconds
+[2024-01-17T12:06:12.599+0000] {processor.py:153} INFO - Started process (PID=40756) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:06:12.602+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:06:12.603+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:06:12.603+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:06:12.658+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:06:12.680+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:06:12.680+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:06:12.701+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:06:12.701+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:06:12.725+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.132 seconds
+[2024-01-17T12:06:43.017+0000] {processor.py:153} INFO - Started process (PID=40828) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:06:43.017+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:06:43.018+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:06:43.017+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:06:43.065+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:06:43.085+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:06:43.085+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:06:43.254+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:06:43.254+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:06:43.296+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.281 seconds
+[2024-01-17T12:07:13.614+0000] {processor.py:153} INFO - Started process (PID=40908) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:07:13.627+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:07:13.628+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:07:13.628+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:07:13.805+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:07:14.088+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:07:14.088+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:07:14.137+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:07:14.137+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:07:14.187+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.575 seconds
+[2024-01-17T12:07:45.060+0000] {processor.py:153} INFO - Started process (PID=40980) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:07:45.061+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:07:45.062+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:07:45.062+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:07:45.133+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:07:45.151+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:07:45.151+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:07:45.173+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:07:45.173+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:07:45.191+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.139 seconds
+[2024-01-17T12:08:16.075+0000] {processor.py:153} INFO - Started process (PID=41061) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:08:16.075+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:08:16.076+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:08:16.076+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:08:16.119+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:08:16.135+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:08:16.135+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:08:16.331+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:08:16.331+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:08:16.349+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.276 seconds
+[2024-01-17T12:08:46.683+0000] {processor.py:153} INFO - Started process (PID=41131) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:08:46.684+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:08:46.685+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:08:46.684+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:08:46.728+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:08:46.752+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:08:46.752+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:08:46.918+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:08:46.918+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:08:46.934+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.253 seconds
+[2024-01-17T12:09:17.204+0000] {processor.py:153} INFO - Started process (PID=41210) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:09:17.204+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:09:17.205+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:09:17.205+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:09:17.245+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:09:17.263+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:09:17.263+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:09:17.283+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:09:17.283+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:09:17.302+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.100 seconds
+[2024-01-17T12:09:47.878+0000] {processor.py:153} INFO - Started process (PID=41280) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:09:47.878+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:09:47.879+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:09:47.878+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:09:47.920+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:09:47.939+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:09:47.939+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:09:47.959+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:09:47.959+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:09:48.090+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.215 seconds
+[2024-01-17T12:10:18.600+0000] {processor.py:153} INFO - Started process (PID=41361) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:10:18.601+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:10:18.601+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:10:18.601+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:10:18.643+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:10:18.660+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:10:18.660+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:10:18.854+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:10:18.854+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:10:18.880+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.282 seconds
+[2024-01-17T12:10:49.229+0000] {processor.py:153} INFO - Started process (PID=41432) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:10:49.229+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:10:49.230+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:10:49.230+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:10:49.324+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:10:49.561+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:10:49.561+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:10:49.589+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:10:49.589+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:10:49.619+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.392 seconds
+[2024-01-17T12:11:19.883+0000] {processor.py:153} INFO - Started process (PID=41510) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:11:19.897+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:11:19.898+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:11:19.898+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:11:19.984+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:11:20.036+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:11:20.035+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:11:20.075+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:11:20.075+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:11:20.122+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.242 seconds
+[2024-01-17T12:11:50.495+0000] {processor.py:153} INFO - Started process (PID=41580) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:11:50.496+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:11:50.496+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:11:50.496+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:11:50.592+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:11:50.619+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:11:50.619+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:11:50.775+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:11:50.774+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:11:50.793+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.306 seconds
+[2024-01-17T12:12:20.829+0000] {processor.py:153} INFO - Started process (PID=41660) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:12:20.834+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:12:20.834+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:12:20.834+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:12:20.931+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:12:20.968+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:12:20.968+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:12:21.204+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:12:21.203+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:12:21.242+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.414 seconds
+[2024-01-17T12:12:51.467+0000] {processor.py:153} INFO - Started process (PID=41731) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:12:51.467+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:12:51.468+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:12:51.467+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:12:51.533+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:12:51.551+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:12:51.550+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:12:51.581+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:12:51.580+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:12:51.602+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.138 seconds
+[2024-01-17T12:13:22.193+0000] {processor.py:153} INFO - Started process (PID=41809) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:13:22.208+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:13:22.208+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:13:22.208+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:13:22.342+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:13:22.404+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:13:22.404+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:13:22.488+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:13:22.488+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:13:22.879+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.688 seconds
+[2024-01-17T12:13:53.085+0000] {processor.py:153} INFO - Started process (PID=41879) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:13:53.085+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:13:53.086+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:13:53.086+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:13:53.151+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:13:53.175+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:13:53.175+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:13:53.333+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:13:53.332+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:13:53.350+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.267 seconds
+[2024-01-17T12:14:23.935+0000] {processor.py:153} INFO - Started process (PID=41948) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:14:23.936+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:14:23.936+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:14:23.936+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:14:23.991+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:14:24.136+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:14:24.136+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:14:24.161+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:14:24.161+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:14:24.179+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.246 seconds
+[2024-01-17T12:14:54.214+0000] {processor.py:153} INFO - Started process (PID=42017) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:14:54.215+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:14:54.215+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:14:54.215+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:14:54.258+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:14:54.287+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:14:54.286+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:14:54.318+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:14:54.318+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:14:54.338+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.127 seconds
+[2024-01-17T12:15:25.141+0000] {processor.py:153} INFO - Started process (PID=42098) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:15:25.141+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:15:25.142+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:15:25.142+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:15:25.184+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:15:25.201+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:15:25.201+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:15:25.327+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:15:25.327+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:15:25.346+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.207 seconds
+[2024-01-17T12:15:55.972+0000] {processor.py:153} INFO - Started process (PID=42168) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:15:55.977+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:15:55.978+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:15:55.978+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:15:56.115+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:15:56.348+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:15:56.348+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:15:56.418+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:15:56.418+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:15:56.472+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.502 seconds
+[2024-01-17T12:16:26.701+0000] {processor.py:153} INFO - Started process (PID=42248) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:16:26.702+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:16:26.702+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:16:26.702+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:16:26.760+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:16:26.782+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:16:26.781+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:16:26.805+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:16:26.804+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:16:26.822+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.123 seconds
+[2024-01-17T12:16:57.031+0000] {processor.py:153} INFO - Started process (PID=42318) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:16:57.033+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:16:57.037+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:16:57.037+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:16:57.120+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:16:57.166+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:16:57.165+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:16:57.425+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:16:57.425+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:16:57.451+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.421 seconds
+[2024-01-17T12:17:28.166+0000] {processor.py:153} INFO - Started process (PID=42398) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:17:28.167+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:17:28.167+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:17:28.167+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:17:28.208+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:17:28.229+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:17:28.228+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:17:28.359+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:17:28.359+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:17:28.380+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.216 seconds
+[2024-01-17T12:17:58.779+0000] {processor.py:153} INFO - Started process (PID=42468) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:17:58.779+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:17:58.780+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:17:58.780+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:17:58.954+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:17:58.972+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:17:58.971+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:17:59.002+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:17:59.001+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:17:59.025+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.249 seconds
+[2024-01-17T12:18:29.744+0000] {processor.py:153} INFO - Started process (PID=42548) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:18:29.748+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:18:29.749+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:18:29.748+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:18:29.813+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:18:29.837+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:18:29.837+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:18:29.859+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:18:29.859+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:18:30.058+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.317 seconds
+[2024-01-17T12:19:00.125+0000] {processor.py:153} INFO - Started process (PID=42617) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:19:00.126+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:19:00.126+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:19:00.126+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:19:00.181+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:19:00.201+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:19:00.201+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:19:00.353+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:19:00.353+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:19:00.377+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.254 seconds
+[2024-01-17T12:19:30.485+0000] {processor.py:153} INFO - Started process (PID=42697) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:19:30.486+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:19:30.486+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:19:30.486+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:19:30.528+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:19:30.658+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:19:30.658+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:19:30.678+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:19:30.678+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:19:30.699+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.217 seconds
+[2024-01-17T12:20:01.184+0000] {processor.py:153} INFO - Started process (PID=42767) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:20:01.197+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:20:01.197+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:20:01.197+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:20:01.304+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:20:01.354+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:20:01.354+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:20:01.386+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:20:01.385+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:20:01.427+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.247 seconds
+[2024-01-17T12:20:32.018+0000] {processor.py:153} INFO - Started process (PID=42847) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:20:32.020+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:20:32.021+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:20:32.021+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:20:32.176+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:20:32.243+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:20:32.243+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:20:32.667+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:20:32.667+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:20:32.741+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.752 seconds
+[2024-01-17T12:21:04.152+0000] {processor.py:153} INFO - Started process (PID=42918) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:21:04.153+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:21:04.153+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:21:04.153+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:21:04.240+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:21:04.528+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:21:04.528+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:21:04.549+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:21:04.549+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:21:04.574+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.424 seconds
+[2024-01-17T12:21:34.687+0000] {processor.py:153} INFO - Started process (PID=42998) to work on /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:21:34.691+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_mysql_test.py for tasks to queue
+[2024-01-17T12:21:34.692+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:21:34.692+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:21:35.058+0000] {processor.py:753} INFO - DAG(s) dict_keys(['read_to_local_mysql']) retrieved from /opt/airflow/dags/slack_mysql_test.py
+[2024-01-17T12:21:35.084+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:21:35.084+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-17T12:21:35.113+0000] {logging_mixin.py:137} INFO - [2024-01-17T12:21:35.112+0000] {dag.py:3441} INFO - Setting next_dagrun for read_to_local_mysql to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T00:00:00+00:00
+[2024-01-17T12:21:35.136+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_mysql_test.py took 0.452 seconds
