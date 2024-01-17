@@ -40,8 +40,12 @@ def postAndReview_sql_and_return_result(**kwargs):
             # SQL 쿼리 실행
             sql_query = """
                 SELECT mydb.jobinfo_jobplanet.company AS 회사명, merit_summary AS 장점, demerit_summary AS 단점, answer_summary AS '면접 분위기 및 답변'
+<<<<<<< HEAD
                 FROM mydb.jobinfo_jobplanet
                 ORDER BY mydb.jobinfo_jobplanet.company;
+=======
+                FROM mydb.jobinfo_jobplanet;
+>>>>>>> e85bad369270f57d81da8fe68dc3a4c8bc694d76
             """
             cursor.execute(sql_query)
 
@@ -76,8 +80,12 @@ def totalPost_sql_and_return_result(**kwargs):
                 SELECT mydb.jobinfo_jumpit.company AS 회사명, position AS 직급, skills AS 필요역량, average_salary AS 평균연봉, due_date AS 마감기한, link AS 채용페이지
                 FROM mydb.jobinfo_jumpit
                 LEFT JOIN mydb.jobinfo_jobplanet
+<<<<<<< HEAD
                 ON mydb.jobinfo_jumpit.company = mydb.jobinfo_jobplanet.company
                 ORDER BY mydb.jobinfo_jobplanet.company;
+=======
+                ON mydb.jobinfo_jumpit.company = mydb.jobinfo_jobplanet.company;
+>>>>>>> e85bad369270f57d81da8fe68dc3a4c8bc694d76
             """
             cursor.execute(sql_query)
 
@@ -111,8 +119,12 @@ def closeDeadline_sql_and_return_result(**kwargs):
             sql_query = """
                 SELECT mydb.jobinfo_jumpit.company AS 회사명, position AS 직급, skills AS 필요역량, due_date AS 마감기한, link AS 채용페이지
                 FROM mydb.jobinfo_jumpit
+<<<<<<< HEAD
                 WHERE timestampdiff(DAY, due_date, now()) > -3
                 ORDER BY mydb.jobinfo_jumpit.company;
+=======
+                WHERE timestampdiff(DAY, due_date, now()) > -3;
+>>>>>>> e85bad369270f57d81da8fe68dc3a4c8bc694d76
             """
             cursor.execute(sql_query)
 
@@ -192,6 +204,10 @@ with DAG(
         dag=dag
     )
     
+<<<<<<< HEAD
+=======
+    
+>>>>>>> e85bad369270f57d81da8fe68dc3a4c8bc694d76
     t7 = SlackWebhookOperator(
         task_id='send_slack_closeDeadline',
         http_conn_id='slack_conn',
@@ -199,4 +215,8 @@ with DAG(
         dag=dag
     )
 
+<<<<<<< HEAD
     t1 >> t2 >> t3 >> t4 >> t5 >> t6 >> t7
+=======
+    t1 >> t2 >> t3 >> t4 >> t5 >> t6 >> t7
+>>>>>>> e85bad369270f57d81da8fe68dc3a4c8bc694d76
